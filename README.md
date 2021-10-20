@@ -108,4 +108,4 @@ a) Selection Sort b) Display top five scores.](python/fdsassignmentgb1q1.py)
 a) Insertion sort b) Display top five scores.](python/fdsassignmentgb2q1.py)
 
     - [Write a Python program to store first year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using :
-a) Quick sort and b) Display top five scores.](python/fdsassignmentgb3.py)
+a) Quick sort b) Display top five scores.](python/fdsassignmentgb3.py)
