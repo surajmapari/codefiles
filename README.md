@@ -56,7 +56,7 @@ change pin, update the information of an account, remove account.](c++/assignmen
     
     - [Write a class with data members name, roll no, and marks in 5 subjects. Write a friend function which is calculating average of 5 subjects. Display all details of student with average marks.](c++/assignment12q2.cpp)
     
-    - [Create two classes DM and DB which stores values of distances. DM stores distance in m and cm and DB in feet and inches. Write a program that can read values for the class objects and add one object of DM with another object of DB. Use friend function to carry out the addition operation the object that stores the result may be DM or DB object depending on unit in which the results are required the display should be in the format of feet and inches or m and cm depending on the object on display (c++/assignment13q1.cpp)
+    - [Create two classes DM and DB which stores values of distances. DM stores distance in m and cm and DB in feet and inches. Write a program that can read values for the class objects and add one object of DM with another object of DB. Use friend function to carry out the addition operation the object that stores the result may be DM or DB object depending on unit in which the results are required the display should be in the format of feet and inches or m and cm depending on the object on display](c++/assignment13q1.cpp)
     
     - [Write a program to swap values of data members of two classes using friend function.](c++/assignment13q2.cpp)
     
