@@ -46,11 +46,7 @@ default value should be printed.](c++/assignment7q1.cpp)
     
     - [Demonstrate the use of new and delete operator for dynamic memory allocation.](c++/assignment9q2.cpp)
     
-    - [Information about the bank account is to be stored and displayed. The account has the information as
-the account number, type of the account, name of the account holder, the balance amount of money, password of the account (pin),
-account can be of two types, simple or joint account. If the account type is joint, the account holders are going to be 2 or more.
-The balance amount of money cannot be less than zero. Pin has to be of exactly 4 digits.
-Read information about the number of people having accounts and display it.](c++/assignment10.cpp)
+    - [Information about the bank account is to be stored and displayed. The account has the information as the account number, type of the account, name of the account holder, the balance amount of money, password of the account (pin), account can be of two types, simple or joint account. If the account type is joint, the account holders are going to be 2 or more. The balance amount of money cannot be less than zero. Pin has to be of exactly 4 digits. Read information about the number of people having accounts and display it.](c++/assignment10.cpp)
     
     - [ATM access is to be given to the account holders.
 The operations user will be able to carry out are as follows: deposit and withdraw amount,
@@ -58,15 +54,9 @@ change pin, update the information of an account, remove account.](c++/assignmen
     
     - [Write a program to add two complex numbers using friend function.](c++/assignment12q1.cpp)
     
-    - [Write a class with data members name, roll no, and marks in 5 subjects. Write a friend function which is calculating average of 5 subjects. 
-Display all details of student with average marks.](c++/assignment12q2.cpp)
+    - [Write a class with data members name, roll no, and marks in 5 subjects. Write a friend function which is calculating average of 5 subjects. Display all details of student with average marks.](c++/assignment12q2.cpp)
     
-    - [Create two classes DM and DB which stores values of distances.
-DM stores distance in m and cm and DB in feet and inches
-Write a program that can read values for the class objects and add one object of DM with another object of DB 
-use friend function to carry out the addition operation
-the object that stores the result may be DM or DB object depending on unit in which the results are required
-the display should be in the format of feet and inches or m and cm depending on the object on display](c++/assignment13q1.cpp)
+    - [Create two classes DM and DB which stores values of distances. DM stores distance in m and cm and DB in feet and inches. Write a program that can read values for the class objects and add one object of DM with another object of DB. Use friend function to carry out the addition operation the object that stores the result may be DM or DB object depending on unit in which the results are required the display should be in the format of feet and inches or m and cm depending on the object on display (c++/assignment13q1.cpp)
     
     - [Write a program to swap values of data members of two classes using friend function.](c++/assignment13q2.cpp)
     
@@ -76,23 +66,11 @@ the display should be in the format of feet and inches or m and cm depending on 
     
     - [Write a program  in C++ for Patient Class using constructor and destructor.](c++/assignment16q1.cpp)
     
-    - [Write a Class to represent a vector(a series of float values).
-Include Member function to perform the following task
-1) To create a vector.
-2) To modify the value of given element
-3) To multiply scalar value
-4) To display Vector
-Use appropriate constructor where ever required](c++/assignment16q2.cpp)
+    - [Write a Class to represent a vector(a series of float values). Include Member function to perform the following task 1) To create a vector. 2) To modify the value of given element 3) To multiply scalar value 4) To display Vector Use appropriate constructor where ever required](c++/assignment16q2.cpp)
     
-    - [Read and print employee information with department and PF information using hierarchical 
-inheritance program in C++. Create one base class for basic info and derive two subclasses named
-department info and loan info. Take necessary and correlative information in each concerning classes.](c++/assignment17.cpp)
+    - [Read and print employee information with department and PF information using hierarchical inheritance program in C++. Create one base class for basic info and derive two subclasses named department info and loan info. Take necessary and correlative information in each concerning classes.](c++/assignment17.cpp)
     
-    - [Derive two specific classes called 
-triangle and rectangle from shape. Add to the base class, a member function get_data() to initialize base class data
-members and another funtion display_area() to compute and display area of figures.Make display area as virtual function
-and redefine this function in the derived classes to suit the requirements.
-Using these three classes design a program that will accept values from users for triangle or rectangle respectively and display area.](c++/assignment18.cpp)
+    - [Derive two specific classes called triangle and rectangle from shape. Add to the base class, a member function get_data() to initialize base class data members and another funtion display_area() to compute and display area of figures.Make display area as virtual function and redefine this function in the derived classes to suit the requirements. Using these three classes design a program that will accept values from users for triangle or rectangle respectively and display area.](c++/assignment18.cpp)
     
     - [Write a C++ program to overload unary operators that is increment and decrement.](c++/assignment19.cpp)
     
@@ -108,8 +86,7 @@ data types on 3 by 3 matrix by using function template.](c++/assignment22q1.cpp)
     
     - [Using class template write a program Input n numbers into an array and print the element is ascending order.(array sorting).](c++/assignment23.cpp)
     
-    - []()
-    
+   
 
 - **[Python](python)**
   
@@ -122,11 +99,8 @@ d) Display mark with highest frequency.](python/fdsassignment1.py)
 
     - [In second year computer engineering class, group A student’s play cricket, group B
 students play badminton and group C students play football. Write a Python program
-using functions to compute following: -
-a) List of students who play both cricket and badminton
-b) List of students who play either cricket or badminton but not both
-c) Number of students who play neither cricket nor badminton
-d) Number of students who play cricket and football but not badminton.](python/fdsassignment2.py)
+using functions to compute following: - a) List of students who play both cricket and badminton b) List of students who play either cricket or badminton but not both
+c) Number of students who play neither cricket nor badminton d) Number of students who play cricket and football but not badminton.](python/fdsassignment2.py)
 
     - [Write a Python program that computes the net amount of a bank account based a
 transaction log from console input. The transaction log format is shown as following: D
@@ -135,13 +109,11 @@ withdraw and deposit) D means deposit while W means withdrawal.](python/fdsassig
 
     - [Write a Python program to store first year percentage of students in array. Write function
 for sorting array of floating point numbers in ascending order using
-a) Selection Sort
-b) Display top five scores.](python/fdsassignmentgb1q1.py)
+a) Selection Sort b) Display top five scores.](python/fdsassignmentgb1q1.py)
 
     - [Write a Python program to store second year percentage of students in array. Write
 function for sorting array of floating point numbers in ascending order using : 
-a) Insertion sort 
-b) Display top five scores.](python/fdsassignmentgb2q1.py)
+a) Insertion sort b) Display top five scores.](python/fdsassignmentgb2q1.py)
 
     - [Write a Python program to store first year percentage of students in array. Write function
 for sorting array of floating point numbers in ascending order using quick sort and
