@@ -86,6 +86,7 @@ data types on 3 by 3 matrix by using function template.](c++/assignment22q1.cpp)
     
     - [Using class template write a program Input n numbers into an array and print the element is ascending order.(array sorting).](c++/assignment23.cpp)
     
+    - [Swaping numbers using pointers or addresses.](c++/Swaping numbers using pointers or addresses.cpp)
    
 
 - **[Python](python)**
