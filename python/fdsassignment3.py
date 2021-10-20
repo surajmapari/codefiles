@@ -21,7 +21,7 @@ def bank(transtype, ammount):
             negammount = accbal - ammount
             removeammount = ammount - (- negammount)
             accbal = accbal - removeammount
-            print("You were able to withdraw only", removeammount,)
+            print("You were able to withdraw only", removeammount)
             print("Your Updated Total Balance is: ", accbal)
 
 while True:
