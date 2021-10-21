@@ -11,7 +11,7 @@ n = eval(input("Enter the number of students: "))
 print("Enter the first year percentage of students")
 for i in range(n):
     array.append(eval(input()))
-print("Scores in unsorted order is: ",array)
+print("Scores in unsorted order is: ", array)
 
 for i in range(len(array)):
     min = i
