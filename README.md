@@ -104,6 +104,9 @@ c) Number of students who play neither cricket nor badminton d) Number of studen
     - [Write a Python program to store first year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using
 a) Selection Sort b) Display top five scores.](python/fdsassignmentgb1q1.py)
 
+    - [Write a Python program to store first year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using
+a) Bubble Sort b) Display top five scores.](python/fdsassignmentgb1q2.py)
+    
     - [Write a Python program to store second year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using : 
 a) Insertion sort b) Display top five scores.](python/fdsassignmentgb2q1.py)
 
