@@ -11,14 +11,16 @@ n = eval(input("Enter the number of students: "))
 print("Enter the first year percentage of students")
 for i in range(n):
     array.append(eval(input()))
-print("Unsorted array is: ",array)
+print("Scores in unsorted order is: ",array)
 
 for i in range(len(array)):
     min = i
-    for j in range(min, len(array)):
+    for j in range(min + 1, len(array)):
         if array[min] > array[j]:
-            temp = array[min]
-            array[min] = array[j]
-            array[j] = temp
+            min = j
+    temp = array[min]
+    array[min] = array[i]
+    array[i] = temp
 
-print("Sorted array is: ", array)
+print("Scores in sorted order is: ", array)            
+print("Top 5 scores are: ", array[-1:-6:-1])
