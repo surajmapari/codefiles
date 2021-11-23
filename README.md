@@ -90,7 +90,7 @@ data types on 3 by 3 matrix by using function template.](c++/assignment22q1.cpp)
     
     - [Department of Computer Engineering has student's club named 'Pinnacle Club'. Students of second, third and final year of department can be granted membership on request.
 Similarly one may cancel the membership of club. First node is reserved for president of club and last node is reserved for secretary of club. Write C++ program to maintain club
-member‘s information using singly linked list. Store student PRN and Name. Write functions to: 1. Add and delete the members as well as president or even secretary. 2. Compute total number of members of club. 3. Display members. 4. Two linked lists exist for two divisions. Concatenate two lists.](c++/fdsassignmentgbC1.cpp)
+member‘s information using singly linked list. Store student PRN and Name. Write functions to: a) Add and delete the members as well as president or even secretary. b) Compute total number of members of club. c) Display members. d) Two linked lists exist for two divisions. Concatenate two lists.](c++/fdsassignmentgbC1.cpp)
 
     - [Second year Computer Engineering class, set A of students like Vanilla Ice-cream and set B of students like butterscotch ice-cream. Write C++ program to store two sets using linked list. compute and display : a) Set of students who like either vanilla or butterscotch or both b) Set of students who like both vanilla and butterscotch c) Number of students who like neither vanilla nor butterscotch.](c++/fdsassignmentgbC2.cpp)
     
