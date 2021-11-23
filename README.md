@@ -87,7 +87,22 @@ data types on 3 by 3 matrix by using function template.](c++/assignment22q1.cpp)
     - [Using class template write a program Input n numbers into an array and print the element is ascending order.(array sorting).](c++/assignment23.cpp)
     
     - [Swaping numbers using pointers or addresses.](c++/swapby_pointer_or_address.cpp)
-   
+    
+    - [Department of Computer Engineering has student's club named 'Pinnacle Club'. Students of second, third and final year of department can be granted membership on request.
+Similarly one may cancel the membership of club. First node is reserved for president of club and last node is reserved for secretary of club. Write C++ program to maintain club
+member‘s information using singly linked list. Store student PRN and Name. Write functions to: 1. Add and delete the members as well as president or even secretary. 2. Compute total number of members of club. 3. Display members. 4. Two linked lists exist for two divisions. Concatenate two lists.](c++/fdsassignmentgbC1.cpp)
+
+    - [Second year Computer Engineering class, set A of students like Vanilla Ice-cream and set B of students like butterscotch ice-cream. Write C++ program to store two sets using linked list. compute and display : a. Set of students who like either vanilla or butterscotch or both b. Set of students who like both vanilla and butterscotch c. Number of students who like neither vanilla nor butterscotch.](c++/fdsassignmentgbC2.cpp)
+    
+    - [A palindrome is a string of character that‘s the same forward and backward. Typically,punctuation, capitalization, and spaces are ignored. For example, “Poor Dan is in a droop”is a palindrome, as can be seen by examining the characters “poor danisina droop” and observing that they are thesame forward and backward. One way to check for apalindrome is to reverse the characters in the string and then compare with them the original-in a palindrome, the sequence will be identical. Write C++ program with functions
+1. To print original string followed by reversed string using stack 2. To check whether given string is palindrome or not.](c++/fdsassignmentgbD1.cpp)
+    
+    - [Queues are frequently used in computer programming, and a typical example is the creation of a job queue by an operating system. If the operating system does not use
+priorities, then the jobs are processed in the order they enter the system. Write C++ program for simulating job queue. Write functions to add job and delete job from queue.](c++/fdsassignmentgbE1.cpp)
+
+    - []()
+    
+    - [Pizza parlor accepting maximum M orders. Orders are served in first come first served basis. Order once placed cannot be cancelled. Write C++ program to simulate the system using circular queue using array.](c++/fdsassignmentgbE3.cpp)
 
 - **[Python](python)**
   
