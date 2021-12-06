@@ -96,12 +96,12 @@ member‘s information using singly linked list. Store student PRN and Name. Wri
     
     - [A palindrome is a string of character that‘s the same forward and backward. Typically,punctuation, capitalization, and spaces are ignored. For example, “Poor Dan is in a droop”is a palindrome, as can be seen by examining the characters “poor danisina droop” and observing that they are thesame forward and backward. One way to check for apalindrome is to reverse the characters in the string and then compare with them the original-in a palindrome, the sequence will be identical. Write C++ program with functions a) To print original string followed by reversed string using stack b) To check whether given string is palindrome or not.](c++/fdsassignmentgbD1.cpp)
     
-    - []()
+    - [Implement C++ program for expression conversion as infix to postfix and its evaluation using stack based on given conditions i. Operands and operator, both must be single character. ii. Input Postfix expression must be in a desired format. iii. Only '+', '-', '*' and '/ ' operators are expected.](c++/fdsassignmentgbD2.cpp)
     
     - [Queues are frequently used in computer programming, and a typical example is the creation of a job queue by an operating system. If the operating system does not use
 priorities, then the jobs are processed in the order they enter the system. Write C++ program for simulating job queue. Write functions to add job and delete job from queue.](c++/fdsassignmentgbE1.cpp)
 
-    - []()
+    - [Pizza parlor accepting maximum M orders. Orders are served in first come first served basis. Order once placed cannot be cancelled. Write C++ program to simulate the system using circular queue using array.](fdsassignmentgbE2.cpp)
     
     - [Pizza parlor accepting maximum M orders. Orders are served in first come first served basis. Order once placed cannot be cancelled. Write C++ program to simulate the system using circular queue using array.](c++/fdsassignmentgbE3.cpp)
 
