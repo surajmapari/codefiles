@@ -1,157 +1,212 @@
-/* Pizza parlor accepting maximum M orders. Orders are served in first come first served
-basis. Order once placed cannot be cancelled. Write C++ program to simulate the system
-using circular queue using array. */
+/* A double-ended queue (deque) is a linear list in which additions and deletions may be made at either end.
+Obtain a data representation mapping a deque into a one-dimensional array.
+Write C++ program to stimulate deque with functions to add and delete elements from either end of the deque. */
 
-#define MAX 20
+#define MAX 100
 #include <iostream>
 using namespace std;
 
-struct Pizza_Parlor
+struct dequeue
 {
-    int order_id[MAX], front, rear;
-    string orderer_name[MAX];
+    int data[MAX], front = -1, rear = -1;
 };
 
-class queue_functions
+class dequeue_functions
 {
 private:
-    struct Pizza_Parlor q;
+    struct dequeue dq;
     bool isempty()
     {
-        return (q.rear == -1) ? true : false;
+        return (dq.front == -1) ? true : false;
     }
 
     bool isfull()
     {
-        return ((q.rear + 1) % MAX == q.front) ? true : false;
+        return ((dq.front == 0 && dq.rear == MAX - 1) || (dq.front == dq.rear + 1)) ? true : false;
     }
 
 public:
-    queue_functions()
+    void insert_at_front()
     {
-        q.front = q.rear = -1;
+        if (isfull())
+        {
+            std::cout << "Deque Overflow!" << std::endl;
+            return;
+        }
+        if (isempty())
+        {
+            dq.front = dq.rear = 0;
+        }
+        else
+        {
+            if (dq.front == 0)
+            {
+                dq.front = MAX - 1;
+            }
+            else
+            {
+                dq.front = dq.front - 1;
+            }
+        }
+        int x;
+        std::cout << "Enter the element: ";
+        cin >> x;
+        dq.data[dq.front] = x;
+    }
+
+    void insert_at_rear()
+    {
+        if (isfull())
+        {
+            std::cout << "Deque Overflow!" << std::endl;
+            return;
+        }
+        if (isempty())
+        {
+            dq.front = dq.rear = 0;
+        }
+        else
+        {
+            if (dq.rear == MAX - 1)
+            {
+                dq.rear = 0;
+            }
+            else
+            {
+                dq.rear = dq.rear + 1;
+            }
+        }
+        int x;
+        std::cout << "Enter the element: ";
+        cin >> x;
+        dq.data[dq.rear] = x;
+    }
+
+    void delete_at_front()
+    {
+        if (isempty())
+        {
+            std::cout << "Deque Underflow!" << std::endl;
+            return;
+        }
+        std::cout << "Deleted element is: " << dq.data[dq.front] << std::endl;
+        if (dq.front == dq.rear)
+        {
+            dq.front = dq.rear = -1;
+        }
+        else
+        {
+            if (dq.front == MAX - 1)
+            {
+                dq.front = 0;
+            }
+            else
+            {
+                dq.front = dq.front + 1;
+            }
+        }
+    }
+
+    void delete_at_rear()
+    {
+        if (isempty())
+        {
+            std::cout << "Deque Underflow!" << std::endl;
+            return;
+        }
+        std::cout << "Deleted element is: " << dq.data[dq.rear] << std::endl;
+        if (dq.front == dq.rear)
+        {
+            dq.front = dq.rear = -1;
+        }
+        else
+        {
+            if (dq.rear == 0)
+            {
+                dq.rear = MAX - 1;
+            }
+            else
+            {
+                dq.rear = dq.rear - 1;
+            }
+        }
     }
 
     void display()
     {
+        int left = dq.front, right = dq.rear;
         if (isempty())
         {
-            std::cout << "Cafe is EMPTY!!!" << std::endl;
+            std::cout << "Deque Underflow!" << std::endl;
+            return;
+        }
+        if (left <= right)
+        {
+            while (left <= right)
+            {
+                std::cout << dq.data[left++] << " ";
+            }
         }
         else
         {
-            int i = q.front;
-            while (i != q.rear + 1)
+            while (left <= MAX - 1)
             {
-                std::cout << "Order Id: " << q.order_id[i] << " Orderer Name: " << q.orderer_name[i] << std::endl;
-                i = (i + 1) % MAX;
+                std::cout << dq.data[left++] << " ";
+            }
+            left = 0;
+            while (left <= right)
+            {
+                std::cout << dq.data[left++] << " ";
             }
         }
-    }
-
-    void place_order()
-    {
-        if (isfull())
-        {
-            std::cout << "Orders are FULL!!! New orders are not possible!!!" << std::endl;
-        }
-        else if (isempty())
-        {
-            int id;
-            string name;
-            std::cout << "Enter Order ID: ";
-            cin >> id;
-            std::cout << "Enter Orderer Name: ";
-            cin >> name;
-            q.front = q.rear = 0;
-            q.order_id[q.rear] = id;
-            q.orderer_name[q.rear] = name;
-            std::cout << "Order Placed successfully" << std::endl;
-            std::cout << std::endl;
-            display();
-        }
-        else
-        {
-            int pos = (q.rear + 1) % MAX;
-            if (pos == q.front)
-            {
-                std::cout << "Cafe is Full!!" << std::endl;
-            }
-            else
-            {
-                int id;
-                string name;
-                std::cout << "Enter Order ID: ";
-                cin >> id;
-                std::cout << "Enter Orderer Name: ";
-                cin >> name;
-                q.rear = pos;
-                q.order_id[q.rear] = id;
-                q.orderer_name[q.rear] = name;
-                std::cout << std::endl;
-                display();
-            }
-        }
-    }
-
-    void serve_order()
-    {
-        if (isempty())
-        {
-            std::cout << "No orders to Serve!!" << std::endl;
-        }
-        else
-        {
-            std::cout << "Order Id: " << q.order_id[q.front] << " Orderer Name: " << q.orderer_name[q.front] << std::endl;
-            if (q.front == q.rear)
-            {
-                q.front = q.rear = -1;
-            }
-            else
-            {
-                q.front = (q.front + 1) % MAX;
-            }
-            std::cout << "Order Served successfully" << std::endl;
-            std::cout << std::endl;
-            display();
-        }
+        std::cout << std::endl;
     }
 };
 
 int main()
 {
-    queue_functions obj;
-    int choice;
-    
-    std::cout << "\n-----------------PizzaParlor Menu-----------------" << std::endl;
+    std::cout << "\n--------------------------------------------------" << std::endl;
+    std::cout << "---------------------MAIN_MENU--------------------" << std::endl;
+    dequeue_functions obj;
+    char choice;
     do
     {
         std::cout << "--------------------------------------------------" << std::endl;
-        std::cout << "1.Place Order" << std::endl;
-        std::cout << "2.Serve Order" << std::endl;
-        std::cout << "3.Display order_id" << std::endl;
-        std::cout << "4.Exit" << std::endl;
+        std::cout << "1.Insertion from front end" << std::endl;
+        std::cout << "2.Insertion from rear end" << std::endl;
+        std::cout << "3.Deletion from front end" << std::endl;
+        std::cout << "4.Deletion from rear end" << std::endl;
+        std::cout << "5.Display" << std::endl;
+        std::cout << "6.Exit" << std::endl;
         std::cout << "--------------------------------------------------" << std::endl;
-        std::cout << "Enter your choice: ";
+        std::cout << "Enter the choice: ";
         cin >> choice;
         std::cout << "--------------------------------------------------" << std::endl;
-
         switch (choice)
         {
-        case 1:
-            obj.place_order();
-            break;
-        case 2:
-            obj.serve_order();
-            break;
-        case 3:
+        case '1':
+            obj.insert_at_front();
             obj.display();
             break;
-        default:
+        case '2':
+            obj.insert_at_rear();
+            obj.display();
+            break;
+        case '3':
+            obj.delete_at_front();
+            obj.display();
+            break;
+        case '4':
+            obj.delete_at_rear();
+            obj.display();
+            break;
+        case '5':
+            obj.display();
             break;
         }
-    } while (choice != 4);
+    } while (choice != '6');
 
+    std::cout << "---------------------THANK_YOU--------------------" << std::endl;
     std::cout << "--------------------------------------------------" << std::endl;
 
     return 0;
