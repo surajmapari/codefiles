@@ -4,7 +4,13 @@ my codefiles non of your business
 ### INDEX
 
 - **[Java](java)**
-
+    
+    - [Write a program to simulate Page replacement algorithm FIFO.](java/myfifo.java)
+    
+    - [Write a program to simulate Page replacement algorithm LRU.](java/mylru.java)
+    
+    - [Write a program to simulate Page replacement algorithm OPTIMAL.](java/myoptimal.java)
+    
     - [Write a program to simulate Page replacement algorithm (FIFO and LRU and OPTIMAL).](java/allpagereplacement.java)
 
 - **[C++](c++)**
