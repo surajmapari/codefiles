@@ -3,6 +3,10 @@ my codefiles non of your business
 
 ### INDEX
 
+- **[Java](java)**
+
+    - [Write a program to simulate Page replacement algorithm (FIFO and LRU and OPTIMAL).](java/allpagereplacement.java)
+
 - **[C++](c++)**
 
     - [Write a simple C++ program to validate username and password using Class and Object: If username is "user" and password is "pwd" then print successful message else print unsuccessful.](c++/assignment1.cpp)
