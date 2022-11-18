@@ -37,6 +37,8 @@ public class myoptimal {
                     index.put(pages[i], nextIndex(pages, i));
                 }
             }
+            System.out.println("Iterating Hashmap...");
+            System.out.println("Current frame is: " + frames);
         }
         System.out.println("Number of Page Faults : " + pagefaults);
         System.out.println("Hits:\t" + hits);
