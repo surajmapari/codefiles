@@ -5,11 +5,13 @@ my codefiles non of your business
 
 - **[Java](java)**
     
-    - [Write a program to simulate CPU Scheduling Algorithms: FCFS](java/myfcfs.java)
+    - [Write a program to simulate CPU Scheduling Algorithms: FCFS.](java/myfcfs.java)
 
-    - [Write a program to simulate CPU Scheduling Algorithms: SJF(Preemptive)](java/mysjf.java)
+    - [Write a program to simulate CPU Scheduling Algorithms: SJF(Preemptive).](java/mysjf.java)
 
-    - [Write a program to simulate CPU Scheduling Algorithms: ROUND ROBIN(Preemptive)](java/myroundrobin.java)
+    - [Write a program to simulate CPU Scheduling Algorithms: PRIORITY(Non Preemptive).](java/mysjf.java)
+
+    - [Write a program to simulate CPU Scheduling Algorithms: ROUND ROBIN(Preemptive).](java/myroundrobin.java)
     
     - [Write a program to simulate Page replacement algorithm FIFO.](java/myfifo.java)
     
