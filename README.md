@@ -5,6 +5,10 @@ my codefiles non of your business
 
 - **[Java](java)**
     
+    - [ESIOT](java/ESIOT.txt)
+    
+    - [MacroProcessor Pass1](java/mymacropass1.java)
+    
     - [Write a program to simulate CPU Scheduling Algorithms: FCFS.](java/myfcfs.java)
 
     - [Write a program to simulate CPU Scheduling Algorithms: SJF(Preemptive).](java/mysjf.java)
