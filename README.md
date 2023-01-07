@@ -11,7 +11,7 @@ my codefiles non of your business
     
     - [Write a program to simulate CPU Scheduling Algorithms: FCFS.](java/myfcfs.java)
 
-    - [Write a program to simulate CPU Scheduling Algorithms: SJF(Preemptive).](java/mysjf.java)
+    - [Write a program to simulate CPU Scheduling Algorithms: SJF(Preemptive)(Code not Working).](java/mysjf.java)
 
     - [Write a program to simulate CPU Scheduling Algorithms: PRIORITY(Non Preemptive).](java/mypriority.java)
 
