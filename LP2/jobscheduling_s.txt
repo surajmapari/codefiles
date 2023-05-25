@@ -1,0 +1,30 @@
+def schedule_jobs(profit, deadline):
+    n = len(profit)
+    max_deadline = max(deadline)
+    slot = [-1] * (max_deadline + 1)
+    selected_jobs = []
+
+    jobs = sorted(range(n), key=lambda x: profit[x], reverse=True)
+
+    for job in jobs:
+        for j in range(deadline[job], 0, -1):
+            if slot[j] == -1:
+                slot[j] = job
+                selected_jobs.append(job)
+                break
+
+    total_profit = 0
+    scheduled_jobs = []
+    for job in selected_jobs:
+        if job != -1:
+            total_profit += profit[job]
+            scheduled_jobs.append(job)
+
+    return scheduled_jobs, total_profit
+
+profit = [15, 27, 10, 100, 150]
+deadline = [2, 3, 3, 3, 4]
+scheduled_jobs, total_profit = schedule_jobs(profit, deadline)
+
+print("Scheduled Jobs:", scheduled_jobs)
+print("Total Profit:", total_profit)

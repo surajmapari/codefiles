@@ -1,0 +1,17 @@
+def manipulate_string(string):
+    manipulated_string_and = ""
+    manipulated_string_xor = ""
+    for char in string:
+        manipulated_char_and = chr(ord(char) & 127)
+        manipulated_char_xor = chr(ord(char) ^ 127)
+        manipulated_string_and += manipulated_char_and
+        manipulated_string_xor += manipulated_char_xor
+    return manipulated_string_and, manipulated_string_xor
+
+# Test the program
+input_string = "Hello World"
+manipulated_and, manipulated_xor = manipulate_string(input_string)
+
+print("Original string:", input_string)
+print("AND Manipulated string:", manipulated_and)
+print("XOR Manipulated string:", manipulated_xor)
