@@ -130,6 +130,8 @@ priorities, then the jobs are processed in the order they enter the system. Writ
     - [Pizza parlor accepting maximum M orders. Orders are served in first come first served basis. Order once placed cannot be cancelled. Write C++ program to simulate the system using circular queue using array.](c++/fdsassignmentgbE3.cpp)
 
 - **[Python](python)**
+
+    - [Write a program non-recursive and recursive program to calculate Fibonacci numbers and analyze their time and space complexity.](python/DAA 1.py)
   
     - [Write a Python program to store marks scored in subject “Fundamental of Data Structure” by N students in the class. Write functions to compute following:
 a) The average score of class b) Highest score and lowest score of class c) Count of students who were absent for the test d) Display mark with highest frequency.](python/fdsassignmentgbA1.py)
