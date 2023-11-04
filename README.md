@@ -6,6 +6,16 @@ my codefiles non of your business
 - **[Python](python)**
 
     - [Write a program non-recursive and recursive program to calculate Fibonacci numbers and analyze their time and space complexity.](python/DAA1.py)
+      
+    - [Write a program to implement Huffman Encoding using a greedy strategy.]()
+ 
+    - [Write a program to solve a fractional Knapsack problem using a greedy method.]()
+ 
+    - [Write a program to solve a 0-1 Knapsack problem using dynamic programming or branch and bound strategy.]()
+ 
+    - [Design n-Queens matrix having first Queen placed. Use backtracking to place remaining Queens to generate the final n-queen‘s matrix]()
+ 
+    - [Mini Project - Implement merge sort and multithreaded merge sort. Compare time required by both the algorithms. Also analyze the performance of each algorithm for the best case and the worst case]()
   
     - [Write a Python program to store marks scored in subject “Fundamental of Data Structure” by N students in the class. Write functions to compute following:
 a) The average score of class b) Highest score and lowest score of class c) Count of students who were absent for the test d) Display mark with highest frequency.](python/fdsassignmentgbA1.py)
