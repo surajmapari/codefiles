@@ -5,17 +5,29 @@ my codefiles non of your business
 
 - **[Python DAA & ML & FDS](python)**
 
-    - [Write a program non-recursive and recursive program to calculate Fibonacci numbers and analyze their time and space complexity.](python/DAA1.py)
+    - [1.Write a program non-recursive and recursive program to calculate Fibonacci numbers and analyze their time and space complexity.](python/DAA1.py)
       
-    - [Write a program to implement Huffman Encoding using a greedy strategy.](python/DAA2.py)
+    - [2.Write a program to implement Huffman Encoding using a greedy strategy.](python/DAA2.py)
  
-    - [Write a program to solve a fractional Knapsack problem using a greedy method.](python/DAA3.py)
+    - [3.Write a program to solve a fractional Knapsack problem using a greedy method.](python/DAA3.py)
  
-    - [Write a program to solve a 0-1 Knapsack problem using dynamic programming or branch and bound strategy.](python/DAA4.py)
+    - [4.Write a program to solve a 0-1 Knapsack problem using dynamic programming or branch and bound strategy.](python/DAA4.py)
  
-    - [Design n-Queens matrix having first Queen placed. Use backtracking to place remaining Queens to generate the final n-queen‘s matrix](python/DAA5.py)
+    - [5.Design n-Queens matrix having first Queen placed. Use backtracking to place remaining Queens to generate the final n-queen‘s matrix](python/DAA5.py)
  
-    - [Mini Project - Implement merge sort and multithreaded merge sort. Compare time required by both the algorithms. Also analyze the performance of each algorithm for the best case and the worst case](python/DAA6.py)
+    - [6.Mini Project - Implement merge sort and multithreaded merge sort. Compare time required by both the algorithms. Also analyze the performance of each algorithm for the best case and the worst case.](python/DAA6.py)
+ 
+    - [Predict the price of the Uber ride from a given pickup point to the agreed drop-off location. Perform tasks.]()
+ 
+    - [Classify the email using the binary classification method. Email Spam detection has two states: a) Normal State – Not Spam, b) Abnormal State – Spam.]()
+ 
+    - [Given a bank customer, build a neural networkbased classifier that can determine whether they will leave or not in the next 6 months.]()
+ 
+    - [Implement K-Nearest Neighbors algorithm on diabetes.csv dataset. Compute confusion matrix, accuracy, error rate, precision and recall on the given dataset.]()
+ 
+    - [Implement Gradient Descent Algorithm to find the local minima of a function.]()
+ 
+    - [Mini Project - Use the following dataset to analyze ups and downs in the market and predict future stock price returns based on Indian Market data from 2000 to 2020.]()
   
     - [Write a Python program to store marks scored in subject “Fundamental of Data Structure” by N students in the class. Write functions to compute following:
 a) The average score of class b) Highest score and lowest score of class c) Count of students who were absent for the test d) Display mark with highest frequency.](python/fdsassignmentgbA1.py)
