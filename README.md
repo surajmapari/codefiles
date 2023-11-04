@@ -3,11 +3,36 @@ my codefiles non of your business
 
 ### INDEX
 
-- **[Java](java)**
+- **[Python](python)**
 
-    - [chatbot](LP2/chatbot_s.txt)
+    - [Write a program non-recursive and recursive program to calculate Fibonacci numbers and analyze their time and space complexity.](python/DAA1.py)
+  
+    - [Write a Python program to store marks scored in subject “Fundamental of Data Structure” by N students in the class. Write functions to compute following:
+a) The average score of class b) Highest score and lowest score of class c) Count of students who were absent for the test d) Display mark with highest frequency.](python/fdsassignmentgbA1.py)
+
+    - [Write a Python In second year computer engineering class, group A student’s play cricket, group B students play badminton and group C students play football. Write a Python program using functions to compute following: - a) List of students who play both cricket and badminton b) List of students who play either cricket or badminton but not both c) Number of students who play neither cricket nor badminton d) Number of students who play cricket and football but not badminton.](python/fdsassignmentgbA2.py)
+
+    - [Write a Python program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following: D
+100 W 200 (Withdrawal is not allowed if balance is going negative. Write functions for withdraw and deposit) D means deposit while W means withdrawal.](python/fdsassignmentgbA3.py)
+
+    - [Write a Python program to store first year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using
+a) Selection Sort b) Display top five scores.](python/fdsassignmentgbB1q1.py)
+
+    - [Write a Python program to store first year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using
+a) Bubble Sort b) Display top five scores.](python/fdsassignmentgbB1q2.py)
     
-    - [ESIOT](java/ESIOT.txt)
+    - [Write a Python program to store second year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using : 
+a) Insertion sort b) Display top five scores.](python/fdsassignmentgbB2q1.py)
+
+    - [Write a Python program to store second year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using : 
+a) Shell sort b) Display top five scores.](python/fdsassignmentgbB2q2.py)
+
+    - [Write a Python program to store first year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using :
+a) Quick sort b) Display top five scores.](python/fdsassignmentgbB3.py)
+
+- **[Java](java)**
+    
+    - [ESIOT sensor program](java/ESIOT.txt)
     
     - [MacroProcessor Pass1](java/mymacropass1.java)
     
@@ -129,29 +154,3 @@ priorities, then the jobs are processed in the order they enter the system. Writ
     
     - [Pizza parlor accepting maximum M orders. Orders are served in first come first served basis. Order once placed cannot be cancelled. Write C++ program to simulate the system using circular queue using array.](c++/fdsassignmentgbE3.cpp)
 
-- **[Python](python)**
-
-    - [Write a program non-recursive and recursive program to calculate Fibonacci numbers and analyze their time and space complexity.](python/DAA1.py)
-  
-    - [Write a Python program to store marks scored in subject “Fundamental of Data Structure” by N students in the class. Write functions to compute following:
-a) The average score of class b) Highest score and lowest score of class c) Count of students who were absent for the test d) Display mark with highest frequency.](python/fdsassignmentgbA1.py)
-
-    - [Write a Python In second year computer engineering class, group A student’s play cricket, group B students play badminton and group C students play football. Write a Python program using functions to compute following: - a) List of students who play both cricket and badminton b) List of students who play either cricket or badminton but not both c) Number of students who play neither cricket nor badminton d) Number of students who play cricket and football but not badminton.](python/fdsassignmentgbA2.py)
-
-    - [Write a Python program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following: D
-100 W 200 (Withdrawal is not allowed if balance is going negative. Write functions for withdraw and deposit) D means deposit while W means withdrawal.](python/fdsassignmentgbA3.py)
-
-    - [Write a Python program to store first year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using
-a) Selection Sort b) Display top five scores.](python/fdsassignmentgbB1q1.py)
-
-    - [Write a Python program to store first year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using
-a) Bubble Sort b) Display top five scores.](python/fdsassignmentgbB1q2.py)
-    
-    - [Write a Python program to store second year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using : 
-a) Insertion sort b) Display top five scores.](python/fdsassignmentgbB2q1.py)
-
-    - [Write a Python program to store second year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using : 
-a) Shell sort b) Display top five scores.](python/fdsassignmentgbB2q2.py)
-
-    - [Write a Python program to store first year percentage of students in array. Write function for sorting array of floating point numbers in ascending order using :
-a) Quick sort b) Display top five scores.](python/fdsassignmentgbB3.py)
