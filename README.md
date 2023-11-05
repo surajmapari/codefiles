@@ -28,6 +28,10 @@ my codefiles non of your business
     - [5.Implement K-Nearest Neighbors algorithm on diabetes.csv dataset. Compute confusion matrix, accuracy, error rate, precision and recall on the given dataset.](python/ML5.ipynb)
  
     - [6.Implement K-Means clustering/ hierarchical clustering on sales_data_sample.csv dataset. Determine the number of clusters using the elbow method.](python/ML6.ipynb)
+ 
+    - [Write a smart contract on a test network, for Bank account of a customer for following operations:  Deposit money  Withdraw Money  Show balance.](python/)
+ 
+    - [Write a program in solidity to create Student data. Use the following constructs:  Structures  Arrays  Fallback. Deploy this as smart contract on Ethereum and Observe the transaction fee and Gas values.](python/)
   
     - [Write a Python program to store marks scored in subject “Fundamental of Data Structure” by N students in the class. Write functions to compute following:
 a) The average score of class b) Highest score and lowest score of class c) Count of students who were absent for the test d) Display mark with highest frequency.](python/fdsassignmentgbA1.py)
