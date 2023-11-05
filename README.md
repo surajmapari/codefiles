@@ -17,17 +17,17 @@ my codefiles non of your business
  
     - [6.Mini Project - Implement merge sort and multithreaded merge sort. Compare time required by both the algorithms. Also analyze the performance of each algorithm for the best case and the worst case.](python/DAA6.py)
  
-    - [1.Predict the price of the Uber ride from a given pickup point to the agreed drop-off location. Perform tasks.]()
+    - [1.Predict the price of the Uber ride from a given pickup point to the agreed drop-off location. Perform tasks.](ML1.py)
  
-    - [2.Classify the email using the binary classification method. Email Spam detection has two states: a) Normal State – Not Spam, b) Abnormal State – Spam.]()
+    - [2.Classify the email using the binary classification method. Email Spam detection has two states: a) Normal State – Not Spam, b) Abnormal State – Spam.](ML2.py)
  
-    - [3.Given a bank customer, build a neural networkbased classifier that can determine whether they will leave or not in the next 6 months.]()
+    - [3.Given a bank customer, build a neural networkbased classifier that can determine whether they will leave or not in the next 6 months.](ML3.py)
  
-    - [4.Implement K-Nearest Neighbors algorithm on diabetes.csv dataset. Compute confusion matrix, accuracy, error rate, precision and recall on the given dataset.]()
+    - [4.Implement Gradient Descent Algorithm to find the local minima of a function.](ML4.py)
  
-    - [5.Implement Gradient Descent Algorithm to find the local minima of a function.]()
+    - [5.Implement K-Nearest Neighbors algorithm on diabetes.csv dataset. Compute confusion matrix, accuracy, error rate, precision and recall on the given dataset.](ML5.py)
  
-    - [6.Mini Project - Use the following dataset to analyze ups and downs in the market and predict future stock price returns based on Indian Market data from 2000 to 2020.]()
+    - [6.Implement K-Means clustering/ hierarchical clustering on sales_data_sample.csv dataset. Determine the number of clusters using the elbow method.](ML6.py)
   
     - [Write a Python program to store marks scored in subject “Fundamental of Data Structure” by N students in the class. Write functions to compute following:
 a) The average score of class b) Highest score and lowest score of class c) Count of students who were absent for the test d) Display mark with highest frequency.](python/fdsassignmentgbA1.py)
