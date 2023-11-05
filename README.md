@@ -3,7 +3,7 @@ my codefiles non of your business
 
 ### INDEX
 
-- **[Python DAA & ML & FDS](python)**
+- **[Python DAA & ML & BT & FDS](python)**
 
     - [1.Write a program non-recursive and recursive program to calculate Fibonacci numbers and analyze their time and space complexity.](python/DAA1.py)
       
@@ -29,7 +29,7 @@ my codefiles non of your business
  
     - [6.Implement K-Means clustering/ hierarchical clustering on sales_data_sample.csv dataset. Determine the number of clusters using the elbow method.](python/ML6.ipynb)
  
-    - [3.Write a smart contract on a test network, for Bank account of a customer for following operations:  Deposit money  Withdraw Money  Show balance.](python/BT3.sol)
+    - [3.Write a smart contract on a test network, for Bank account of a customer for following operations: 1.Deposit money 2.Withdraw Money 3.Show balance.](python/BT3.sol)
  
     - [4-1.Write a program in solidity to create Student data. Use the following constructs:  Structures  Arrays  Fallback. Deploy this as smart contract on Ethereum and Observe the transaction fee and Gas values.](python/BT4-1.sol)
  
