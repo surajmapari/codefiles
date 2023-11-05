@@ -17,17 +17,17 @@ my codefiles non of your business
  
     - [6.Mini Project - Implement merge sort and multithreaded merge sort. Compare time required by both the algorithms. Also analyze the performance of each algorithm for the best case and the worst case.](python/DAA6.py)
  
-    - [1.Predict the price of the Uber ride from a given pickup point to the agreed drop-off location. Perform tasks.](ML1.ipynb)
+    - [1.Predict the price of the Uber ride from a given pickup point to the agreed drop-off location. Perform tasks.](python/ML1.ipynb)
  
-    - [2.Classify the email using the binary classification method. Email Spam detection has two states: a) Normal State – Not Spam, b) Abnormal State – Spam.](ML2.ipynb)
+    - [2.Classify the email using the binary classification method. Email Spam detection has two states: a) Normal State – Not Spam, b) Abnormal State – Spam.](python/ML2.ipynb)
  
-    - [3.Given a bank customer, build a neural networkbased classifier that can determine whether they will leave or not in the next 6 months.](ML3.ipynb)
+    - [3.Given a bank customer, build a neural networkbased classifier that can determine whether they will leave or not in the next 6 months.](python/ML3.ipynb)
  
-    - [4.Implement Gradient Descent Algorithm to find the local minima of a function.](ML4.ipynb)
+    - [4.Implement Gradient Descent Algorithm to find the local minima of a function.](python/ML4.ipynb)
  
-    - [5.Implement K-Nearest Neighbors algorithm on diabetes.csv dataset. Compute confusion matrix, accuracy, error rate, precision and recall on the given dataset.](ML5.ipynb)
+    - [5.Implement K-Nearest Neighbors algorithm on diabetes.csv dataset. Compute confusion matrix, accuracy, error rate, precision and recall on the given dataset.](python/ML5.ipynb)
  
-    - [6.Implement K-Means clustering/ hierarchical clustering on sales_data_sample.csv dataset. Determine the number of clusters using the elbow method.](ML6.ipynb)
+    - [6.Implement K-Means clustering/ hierarchical clustering on sales_data_sample.csv dataset. Determine the number of clusters using the elbow method.](python/ML6.ipynb)
   
     - [Write a Python program to store marks scored in subject “Fundamental of Data Structure” by N students in the class. Write functions to compute following:
 a) The average score of class b) Highest score and lowest score of class c) Count of students who were absent for the test d) Display mark with highest frequency.](python/fdsassignmentgbA1.py)
