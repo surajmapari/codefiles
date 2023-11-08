@@ -5,35 +5,35 @@ my codefiles non of your business
 
 - **[Python DAA & ML & BT & FDS](python)**
 
-    - [1.Write a program non-recursive and recursive program to calculate Fibonacci numbers and analyze their time and space complexity.](python/DAA1.py)
+    - [DAA1.Write a program non-recursive and recursive program to calculate Fibonacci numbers and analyze their time and space complexity.](python/DAA1.py)
       
-    - [2.Write a program to implement Huffman Encoding using a greedy strategy.](python/DAA2.py)
+    - [DAA2.Write a program to implement Huffman Encoding using a greedy strategy.](python/DAA2.py)
  
-    - [3.Write a program to solve a fractional Knapsack problem using a greedy method.](python/DAA3.py)
+    - [DAA3.Write a program to solve a fractional Knapsack problem using a greedy method.](python/DAA3.py)
  
-    - [4.Write a program to solve a 0-1 Knapsack problem using dynamic programming or branch and bound strategy.](python/DAA4.py)
+    - [DAA4.Write a program to solve a 0-1 Knapsack problem using dynamic programming or branch and bound strategy.](python/DAA4.py)
  
-    - [5.Design n-Queens matrix having first Queen placed. Use backtracking to place remaining Queens to generate the final n-queen‘s matrix](python/DAA5.py)
+    - [DAA5.Design n-Queens matrix having first Queen placed. Use backtracking to place remaining Queens to generate the final n-queen‘s matrix](python/DAA5.py)
  
-    - [6.Mini Project - Implement merge sort and multithreaded merge sort. Compare time required by both the algorithms. Also analyze the performance of each algorithm for the best case and the worst case.](python/DAA6.py)
+    - [DAA6.Mini Project - Implement merge sort and multithreaded merge sort. Compare time required by both the algorithms. Also analyze the performance of each algorithm for the best case and the worst case.](python/DAA6.py)
  
-    - [1.Predict the price of the Uber ride from a given pickup point to the agreed drop-off location. Perform tasks.](python/ML1.ipynb)
+    - [ML1.Predict the price of the Uber ride from a given pickup point to the agreed drop-off location. Perform tasks.](python/ML1.ipynb)
  
-    - [2.Classify the email using the binary classification method. Email Spam detection has two states: a) Normal State – Not Spam, b) Abnormal State – Spam.](python/ML2.ipynb)
+    - [ML2.Classify the email using the binary classification method. Email Spam detection has two states: a) Normal State – Not Spam, b) Abnormal State – Spam.](python/ML2.ipynb)
  
-    - [3.Given a bank customer, build a neural networkbased classifier that can determine whether they will leave or not in the next 6 months.](python/ML3.ipynb)
+    - [ML3.Given a bank customer, build a neural networkbased classifier that can determine whether they will leave or not in the next 6 months.](python/ML3.ipynb)
  
-    - [4.Implement Gradient Descent Algorithm to find the local minima of a function.](python/ML4.ipynb)
+    - [ML4.Implement Gradient Descent Algorithm to find the local minima of a function.](python/ML4.ipynb)
  
-    - [5.Implement K-Nearest Neighbors algorithm on diabetes.csv dataset. Compute confusion matrix, accuracy, error rate, precision and recall on the given dataset.](python/ML5.ipynb)
+    - [ML5.Implement K-Nearest Neighbors algorithm on diabetes.csv dataset. Compute confusion matrix, accuracy, error rate, precision and recall on the given dataset.](python/ML5.ipynb)
  
-    - [6.Implement K-Means clustering/ hierarchical clustering on sales_data_sample.csv dataset. Determine the number of clusters using the elbow method.](python/ML6.ipynb)
+    - [ML6.Implement K-Means clustering/ hierarchical clustering on sales_data_sample.csv dataset. Determine the number of clusters using the elbow method.](python/ML6.ipynb)
  
-    - [3.Write a smart contract on a test network, for Bank account of a customer for following operations: 1.Deposit money 2.Withdraw Money 3.Show balance.](python/BT3.sol)
+    - [BT3.Write a smart contract on a test network, for Bank account of a customer for following operations: 1.Deposit money 2.Withdraw Money 3.Show balance.](python/BT3.sol)
  
-    - [4-1.Write a program in solidity to create Student data. Use the following constructs:  Structures  Arrays  Fallback. Deploy this as smart contract on Ethereum and Observe the transaction fee and Gas values.](python/BT4-1.sol)
+    - [BT4-1.Write a program in solidity to create Student data. Use the following constructs:  Structures  Arrays  Fallback. Deploy this as smart contract on Ethereum and Observe the transaction fee and Gas values.](python/BT4-1.sol)
  
-    - [4-2.Write a program in solidity to create Student data. Use the following constructs:  Structures  Arrays  Fallback. Deploy this as smart contract on Ethereum and Observe the transaction fee and Gas values.](python/BT4-2.sol)
+    - [BT4-2.Write a program in solidity to create Student data. Use the following constructs:  Structures  Arrays  Fallback. Deploy this as smart contract on Ethereum and Observe the transaction fee and Gas values.](python/BT4-2.sol)
   
     - [Write a Python program to store marks scored in subject “Fundamental of Data Structure” by N students in the class. Write functions to compute following:
 a) The average score of class b) Highest score and lowest score of class c) Count of students who were absent for the test d) Display mark with highest frequency.](python/fdsassignmentgbA1.py)
